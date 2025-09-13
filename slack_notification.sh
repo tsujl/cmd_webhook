@@ -4,7 +4,7 @@
 # ログファイルのパス。実行ごとに一意なファイル名を作成します。
 LOG_FILE="./command_log_$(date +%Y%m%d_%H%M%S).txt"
 # 実行するコマンド。
-COMMAND="gmt --version" # ここに実行したいコマンドを入力
+COMMAND=" " # ここに実行したいコマンドを入力
 
 # Slackのメッセージ通知用のWebhook URL。
 WEBHOOK_URL="WEBHOOK URL"
